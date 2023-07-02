@@ -1,0 +1,252 @@
+
+
+
+.SelfIntro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 3;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+
+
+.background {
+    /* position: fixed; */
+    width: 100vw;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #5d5ddc;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #5d5ddc 12px ), repeating-linear-gradient( #7d7ddb55, #7d7ddb );
+    /* background: #5d5ddc; */
+    /* overflow: hidden; */
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+}
+
+
+.background li:nth-child(0) {
+    left: 40%;
+    width: 104px;
+    height: 104px;
+    bottom: -104px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 51%;
+    width: 144px;
+    height: 144px;
+    bottom: -144px;
+    animation-delay: 4s;
+}
+.background li:nth-child(2) {
+    left: 5%;
+    width: 131px;
+    height: 131px;
+    bottom: -131px;
+    animation-delay: 7s;
+}
+.background li:nth-child(3) {
+    left: 4%;
+    width: 115px;
+    height: 115px;
+    bottom: -115px;
+    animation-delay: 4s;
+}
+.background li:nth-child(4) {
+    left: 57%;
+    width: 139px;
+    height: 139px;
+    bottom: -139px;
+    animation-delay: 14s;
+}
+.background li:nth-child(5) {
+    left: 85%;
+    width: 139px;
+    height: 139px;
+    bottom: -139px;
+    animation-delay: 15s;
+}
+.background li:nth-child(6) {
+    left: 21%;
+    width: 161px;
+    height: 161px;
+    bottom: -161px;
+    animation-delay: 15s;
+}
+.background li:nth-child(7) {
+    left: 0%;
+    width: 122px;
+    height: 122px;
+    bottom: -122px;
+    animation-delay: 1s;
+}
+.background li:nth-child(8) {
+    left: 1%;
+    width: 116px;
+    height: 116px;
+    bottom: -116px;
+    animation-delay: 25s;
+}
+.background li:nth-child(9) {
+    left: 74%;
+    width: 166px;
+    height: 166px;
+    bottom: -166px;
+    animation-delay: 11s;
+}
+
+.Intro{
+    position:relative;
+}
+
+.NameDesignation{
+    position: absolute;
+    margin-top: -380px;
+}
+
+.fivedotsLeft{
+    position: absolute;
+    margin-top: -540px;
+    font-size: larger;
+}
+
+.fivedotsRight{
+    position: absolute;
+    text-align: right;
+    font-size: larger;
+    bottom:0;
+    right:0;
+}
+
+.ServicesHeadline{
+    width : 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.Servicesdiv{
+    width : 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ServicesBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.Box1, .Box3{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color:  #f8f8f8;
+}
+
+.Box2{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color: #5d5ddc;
+}
+
+.Processdiv{
+    width : 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.Processpoints{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.AboutMe{
+    margin-bottom: 40px;;
+}
+
+.aboutmeimg{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.aboutbox1{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color: #fcedde;
+}
+
+.aboutbox2{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color: #f0e9f7;
+}
+
+
+.projects{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projectsgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+.Collaborate{
+    background-color: #5d5ddc;
+    /* opacity: 1;
+    background-image: radial-gradient(#bcbcc7 2px, #5d5ddc 2px);
+    background-size: 40px 40px; */
+    margin-bottom: 40px;
+}
+
+.footer{
+    background-color: #f8f8f8; 
+}
+
+.Blob{
+    display: flex;
+}
+
+.blob1, .blob2, .blob3{
+    width:100%;
+}
+
+@media (min-width:0px) and (max-width:426px){
+    .ServicesBox{
+        flex-direction: column;
+    }
+
+}
