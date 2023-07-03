@@ -4,16 +4,24 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+    <title>Personal Portfolio - Amanjot Singh Saini</title>
     <link rel="stylesheet" href="./Portfolio.css">
+    <link rel="icon" href="./favicon.ico">
 </head>
-
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&display=swap');
+  </style>
 <body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <section id="Portfolio">
-        <header>
+        <!-- <header class="Header">
             <div class="Brand"></div>
             <div class="HeaderContents"></div>
-        </header>
+        </header> -->
         <div class="SelfIntro">
             <section class="Intro">
                 <ul class="background">
@@ -45,45 +53,56 @@
                     <li></li>
                 </ul>
                 <div class="NameDesignation">
-                    <h1>Hello, I'm </br>Amanjot Singh A </br>Front-End Developer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora perferendis distinctio
-                        laborum maiores aspernatur, doloremque neque suscipit iusto quisquam magni mollitia harum facere
-                        officiis dolore ducimus ut tenetur aperiam?</p>
+                    <h1>Hello, I'm </br>Amanjot Singh Saini</br> A Front-End Developer</h1>
+                    <p>I am a second-year B.Tech undergraduate at MIT-WPU, Pune, pursuing a degree in Computer Science. With a passion for technology and problem-solving, I am dedicated to honing my skills in programming and software development to create innovative solutions.</p>
                     <button class="Downloadbtn"><a href="">Download CV</a></button>
                 </div>
-                <div class="IntroImg"></div>
+                <div class="IntroImg">
+                    <div class="Socialmedia">
+                        <p>My Social Media Handles</p>
+                        <ion-icon name="share-social-outline"></ion-icon>
+                    </div>
+                    <div class="HandleOne">
+                        <a href="https://www.linkedin.com/in/amanjot-saini-776502261/" target="_blank">Linked In</a>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </div>
+                    <div class="HandleThree">
+                        <a href="https://github.com/AmanjotSingh0908" target="_blank">Github</a>
+                        <ion-icon name="logo-github"></ion-icon>
+                    </div>
+                    <div class="HandleTwo">
+                        <a href="https://www.instagram.com/amanjot.singh.saini_/" target="_blank">Instagram</a>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+                    <div class="HandleFour">
+                        <a href="./snapcode.svg" target="_blank">Snapchat</a>
+                        <ion-icon name="logo-snapchat"></ion-icon>
+                    </div>
+                </div>
         </div>
     </section>
     <section class="Services">
         <div class="Servicesdiv">
             <div class="ServicesHeadline">
-                <p>SERVICES</p>
-                <h2>Exerptise Service! Let's check it out</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse odit numquam, quia omnis asperiores
-                    inventore ipsam eaque maiores, tempora nulla quas! Dicta, quasi magni asperiores molestiae ab
-                    nam neque tenetur.</p>
+                <p class="SkillsText">SKILLS</p>
+                <h2>Skills! Let's check it out</h2>
+                <p class="SkillsDesc">I possess a strong command over HTML, CSS, JavaScript, C, and C++ languages, enabling me to develop robust and engaging web applications. Additionally, my curiosity and enthusiasm for Web3 technologies drive my exploration of decentralized systems, blockchain, and smart contracts. With my skills and passion, I strive to create innovative and impactful solutions at the intersection of web development and emerging technologies.</p>
             </div>
             <div class="ServicesBox">
                 <div class="Box1">
-                    <icon></icon>
-                    <h4>UI UX Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae expedita numquam possimus
-                        impedit deserunt fuga, similique, iusto neque earum reprehenderit ad blanditiis, laudantium
-                        repellendus delectus nostrum quod odio nihil rem?</p>
+                    <ion-icon name="logo-bitcoin" class="Bitcoin"></ion-icon>
+                    <h4>Ethereum Developer (Beginner)</h4>
+                    <p>Aspiring Ethereum developer with a passion for learning Solidity. Dedicated to mastering the intricacies of Ethereum development while continuously honing my skills. A motivated beginner eager to contribute to the blockchain ecosystem through innovative and secure solutions.</p>
                 </div>
                 <div class="Box2">
-                    <icon></icon>
-                    <h4>Embed Functionality</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti, excepturi nam dicta
-                        repellat perspiciatis. Illum, voluptatem quaerat? Culpa odio eveniet sequi id provident.
-                        Temporibus explicabo vel hic nisi ex!</p>
+                    <ion-icon name="laptop-outline" class="Web"></ion-icon>
+                    <h4>Web Developer</h4>
+                    <p>I specialize in web development using HTML, CSS, and JavaScript, crafting visually appealing and interactive websites. Leveraging my expertise, I deploy my projects seamlessly using Vercel, ensuring optimal performance and scalability.</p>
                 </div>
                 <div class="Box3">
-                    <icon></icon>
-                    <h4>Deployment</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, alias error? Labore itaque
-                        alias doloremque sint molestiae enim nesciunt cumque maxime vel incidunt ipsam, voluptatibus
-                        quaerat optio repellendus aut in.</p>
+                    <ion-icon name="people-outline" class="Nontech"></ion-icon>
+                    <h4>Non-Technical</h4>
+                    <p>In addition to my technical prowess, I excel in communication, leadership, and management skills, which allow me to effectively collaborate with teams and drive successful projects. With my ability to articulate complex ideas and motivate others.</p>
                 </div>
             </div>
         </div>
@@ -91,27 +110,24 @@
     <section class="Process">
         <div class="Processdiv">
             <div class="ProcessHeadline">
-                <p>PROCESS</p>
+                <p class="ProcessText">PROCESS</p>
                 <h2>My Working Process</h2>
             </div>
             <div class="Processpoints">
                 <div class="requirements">
+                    <ion-icon class="Requirements" name="bulb-outline"></ion-icon>
                     <h4>Requirements From Clients</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sunt facilis hic saepe
-                        alias molestiae, perferendis, neque nobis eveniet non voluptates incidunt provident corrupti
-                        officia quibusdam nisi iste dolorum vitae.</p>
+                    <p>By actively listening and understanding client's requirements and needs, I ensure seamless collaboration and deliver tailored solutions that exceed their expectations.</p>
                 </div>
-                <div class="plan&stratagize">
+                <div class="planNstratagize">
+                    <ion-icon class="Plan" name="clipboard-outline"></ion-icon>
                     <h4>Plan and Development Strategy</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, necessitatibus tempora. A,
-                        aliquid ex ea magni fugit rem! Aliquam necessitatibus quam quis magnam qui asperiores
-                        sapiente quas beatae fuga modi.</p>
+                    <p>With a meticulous approach, I devise a comprehensive plan and implement an agile development strategy, ensuring efficient execution and timely delivery of project.</p>
                 </div>
                 <div class="GrowBusiness">
+                    <ion-icon class= "Growth" name="cellular-outline"></ion-icon>
                     <h4>Grow Your Business</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam voluptate molestias unde id
-                        aliquid inventore perferendis odit quae voluptas maxime, voluptatum doloremque, quidem,
-                        quibusdam repellendus autem distinctio nostrum dolorem ipsa?</p>
+                    <p>Leveraging industry best practices and innovative techniques, I help fuel your business growth by providing strategic guidance and implementing result-oriented marketing strategies.</p>
                 </div>
             </div>
         </div>
@@ -119,43 +135,54 @@
     <section class="AboutMe">
         <div class="AboutMediv">
             <div class="aboutmeimg">
-                <div class="blob1">
-                    <img src="./blob.svg" alt="">
+                <div class="abimage">
+                    <img src="./king.png" alt="King" class="king">
                 </div>
-                <div class="blob2">
+                <!-- <div class="blob">
                     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="#F1C21B"
-                            d="M55.2,4.7C55.2,28.1,27.6,56.2,4.7,56.2C-18.2,56.2,-36.4,28.1,-36.4,4.7C-36.4,-18.7,-18.2,-37.5,4.7,-37.5C27.6,-37.5,55.2,-18.7,55.2,4.7Z"
-                            transform="translate(100 100)" />
+                        <path fill="#5d5cdc" d="M35.1,-30.3C43.8,-17.1,48,-2.6,45.7,11.6C43.4,25.7,34.6,39.6,20,49.7C5.4,59.9,-14.9,66.4,-27.8,59.5C-40.7,52.6,-46.3,32.2,-51.1,11.5C-55.9,-9.2,-60.1,-30.2,-51.4,-43.4C-42.8,-56.6,-21.4,-62.1,-4.1,-58.8C13.2,-55.5,26.4,-43.5,35.1,-30.3Z" transform="translate(100 100)" />
                     </svg>
                 </div>
-                <div class="blob3">
+                <div class="blob">
                     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="#F1C21B" d="M35.1,-30.3C43.8,-17.1,48,-2.6,45.7,11.6C43.4,25.7,34.6,39.6,20,49.7C5.4,59.9,-14.9,66.4,-27.8,59.5C-40.7,52.6,-46.3,32.2,-51.1,11.5C-55.9,-9.2,-60.1,-30.2,-51.4,-43.4C-42.8,-56.6,-21.4,-62.1,-4.1,-58.8C13.2,-55.5,26.4,-43.5,35.1,-30.3Z" transform="translate(100 100)" />
+                        <path fill="#5d5cdc" d="M35.1,-30.3C43.8,-17.1,48,-2.6,45.7,11.6C43.4,25.7,34.6,39.6,20,49.7C5.4,59.9,-14.9,66.4,-27.8,59.5C-40.7,52.6,-46.3,32.2,-51.1,11.5C-55.9,-9.2,-60.1,-30.2,-51.4,-43.4C-42.8,-56.6,-21.4,-62.1,-4.1,-58.8C13.2,-55.5,26.4,-43.5,35.1,-30.3Z" transform="translate(100 100)" />
                     </svg>
                 </div>
+                <div class="blob">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#5d5cdc" d="M35.1,-30.3C43.8,-17.1,48,-2.6,45.7,11.6C43.4,25.7,34.6,39.6,20,49.7C5.4,59.9,-14.9,66.4,-27.8,59.5C-40.7,52.6,-46.3,32.2,-51.1,11.5C-55.9,-9.2,-60.1,-30.2,-51.4,-43.4C-42.8,-56.6,-21.4,-62.1,-4.1,-58.8C13.2,-55.5,26.4,-43.5,35.1,-30.3Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+                <div class="blob">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#5d5cdc" d="M35.1,-30.3C43.8,-17.1,48,-2.6,45.7,11.6C43.4,25.7,34.6,39.6,20,49.7C5.4,59.9,-14.9,66.4,-27.8,59.5C-40.7,52.6,-46.3,32.2,-51.1,11.5C-55.9,-9.2,-60.1,-30.2,-51.4,-43.4C-42.8,-56.6,-21.4,-62.1,-4.1,-58.8C13.2,-55.5,26.4,-43.5,35.1,-30.3Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+                <div class="blob">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#5d5cdc" d="M35.1,-30.3C43.8,-17.1,48,-2.6,45.7,11.6C43.4,25.7,34.6,39.6,20,49.7C5.4,59.9,-14.9,66.4,-27.8,59.5C-40.7,52.6,-46.3,32.2,-51.1,11.5C-55.9,-9.2,-60.1,-30.2,-51.4,-43.4C-42.8,-56.6,-21.4,-62.1,-4.1,-58.8C13.2,-55.5,26.4,-43.5,35.1,-30.3Z" transform="translate(100 100)" />
+                    </svg>
+                </div> -->
             </div>
             <div class="aboutme">
-                <p>ABOUT ME</p>
-                <h2>Creating Solutions, Not</br> Just Visuals</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dolorem consectetur sapiente
-                    nobis! Aliquid tenetur culpa voluptatibus inventore at dignissimos fugiat facilis debitis officiis,
-                    distinctio ullam unde sint pariatur ut?</p>
+                <p class="AboutMeText">ABOUT ME</p>
+                <h2>Creating Solutions, Not</br> Just Websites</h2>
+                <p class="AboutMeIntro">Hello, I am Amanjot Singh Saini, a dedicated individual with a keen interest in the field of technology. Alongside my passion for web development, I am also deeply fascinated by full stack development and cloud engineering. Furthermore, I possess beginner-level skills as an Ethereum developer.</p>
                 <div class="aboutbox1">
-                    <icon></icon>
-                    <p>5k+ Complete Project</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolor possimus in aperiam
-                        repellendus minus unde quam, sequi culpa nemo pariatur, quasi ipsam inventore, nesciunt atque
-                        mollitia doloribus impedit odit!</p>
+                    <div class="ab1">
+                        <ion-icon name="arrow-forward-circle-outline" class="arrow"></ion-icon>
+                    <h4>Secondary And Senior Secondary Education</h4>
+                    </div>
+                    <p>I have a solid educational foundation, beginning with my studies at St. Joseph's Co-Ed School, Bhopal from 2014-2022, where I achieved impressive results of 94% in 10th grade and 85% in 12th grade.</p>
                 </div>
                 <div class="aboutbox2">
-                    <icon></icon>
-                    <p>8+ Complete Project</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolor possimus in aperiam
-                        repellendus minus unde quam, sequi culpa nemo pariatur, quasi ipsam inventore, nesciunt atque
-                        mollitia doloribus impedit odit!</p>
+                    <div class="ab2">
+                        <ion-icon name="arrow-forward-circle-outline" class="arrow"></ion-icon>
+                        <h4>Graduation</h4>
+                    </div>
+                    <p> I am currently pursuing a B.Tech in Computer Science Engineering at MIT-WPU, Pune where I have consistently maintained an impressive average GPA of 8 over two semesters.</p>
                 </div>
-                <button class="btn"><a href="">Download CV</a>
+                <button class="btn"><a href="">Download CV</a><ion-icon name="arrow-forward-outline" class="forwardarrow"></ion-icon> 
                     <icon></icon>
                 </button>
             </div>
@@ -163,22 +190,39 @@
     </section>
     <section class="PortfolioProjects">
         <div class="projects">
-            <p>Portfolio</p>
-            <h1>Projects</h1>
+            <p>PORTFOLIO</p>
+            <h1 class="ProjectsText">Projects/LinkedIn Posts</h1>
+            <h4>Here are some of my beginner friendly projects on Web Devlopment</h4>
         </div>
-        <div class="projectsgrid"></div>
+        <div class="projectsgrid">
+            <div class="post1">
+                <a href="https://jot-it-down-roan.vercel.app/" target="_blank">
+                    <h4>Notes App</h4>
+                </a>
+                <img src="./FilledNotes.png" alt="Proj1" class="Post1img">
+
+            </div>
+            <div class="post2">
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7079909320175304704/" target="_blank">
+                    <h4>E-Com Website</h4>
+                </a>
+                <img src="./CatalogPg1.png" alt="Proj2" class="Post2img">
+            </div>
+        </div>
+        <h4 class="CountingText">...and Counting</h4>
     </section>
     <section class="Collaborate">
         <div class="LetsCollab">
-            <h2>Got A Project! Let's</br>Connect</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eos dolores inventore. Repellendus
-                quis, minima accusantium aut vel, ex, quasi in officiis enim beatae dicta explicabo velit dolor
-                sequi sunt.</p>
-            <button class="Contactbtn"><a href="">Contact</a></button>
+            <h2>Got A Project ! Let's</br>Connect</h2>
+            <p>I believe that connections are the key to unlocking opportunities and growth. I am always open to networking and collaborating with like-minded individuals and professionals in the industry. If you would like to connect and explore potential synergies, please feel free to reach out. Let's connect and pave the way for exciting possibilities together.</p>
+            <button class="Contactbtn"><a href="https://www.linkedin.com/in/amanjot-saini-776502261/">Contact</a></button>
+        </div>
+        <div class="handshake">
+            <img src="./network.png" alt="Collab" class="handshakeimg">
         </div>
     </section>
     <section class="footer">
-        <div class="Footerdiv">
+        <!-- <div class="Footerdiv">
             <div class="footerdiv">
                 <div class="footerLeft"></div>
             </div>
@@ -189,10 +233,10 @@
                 <input type="email" name="Email" id="EmailInput" placeholder="Enter your Email"><button
                     class="Subscribe"><a href="">Subscribe</a></button>
             </div>
-        </div>
+        </div> -->
         <hr>
-        <p>
-            <icon></icon>Copyright 2023 - 2030 | All Rights Reserved |
+        <p class="Copyright">
+            <span>&#169;</span> Copyright 2023 - 2030 | All Rights Reserved |
         </p>
     </section>
     </section>
