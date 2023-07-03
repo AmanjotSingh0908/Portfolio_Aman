@@ -600,4 +600,14 @@ hr{
     .ab1{
         padding-top: 15px;
     }
+
+    .handshakeimg{
+        display: none;
+    }
+
+    .LetsCollab{
+        width:100%;
+        margin: auto;
+        padding: auto ;
+    }
 }
