@@ -576,4 +576,28 @@ hr{
     .Processpoints{
         flex-direction: column;
     }
+
+    .Downloadbtn, .btn, .Contactbtn{
+        padding: 3px 9px;
+    }
+
+    .Downloadbtn>a, .btn>a, .Contactbtn>a{
+        font-size: smaller;
+    }
+
+    .IntroImg{
+        display:none;
+    }
+
+    .NameDesignation>p{
+        font-size: smaller;
+    }
+
+    .aboutmeimg{
+        display: none;
+    }
+
+    .ab1{
+        padding-top: 15px;
+    }
 }
