@@ -433,21 +433,21 @@
 .projectsgrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 2px;
     grid-row-gap: 0px;
     padding: 0 10px;
     margin-top:-20px;
-    display: flex;
-    align-items: center ;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center ;
+    justify-content: center; */
 }
 
 .Post1img , .Post2img{
     width:100%;
 }
 
-.post1>a, .post2>a{
+.post1>a, .post2>a, .post3>a{
     color: #5d5ddc;
     font-family: 'Bitter', serif;
     text-decoration: none;
