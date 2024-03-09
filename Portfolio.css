@@ -464,9 +464,7 @@
 
 .Collaborate{
     background-color: #5d5ddc;
-    /* opacity: 1;
-    background-image: radial-gradient(#bcbcc7 2px, #5d5ddc 2px);
-    background-size: 40px 40px; */
+
     display: flex;
     align-items: center;
     justify-content: center;
